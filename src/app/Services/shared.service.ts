@@ -11,7 +11,7 @@ export class SharedService {
 
   taskdata: any;
   taskList: any;
-  baseUrl="http://localhost:8080/taskmanager/";
+  baseUrl="http://localhost:9090/taskmanager/";
 
 constructor(private httpServ: Http) { }
   
